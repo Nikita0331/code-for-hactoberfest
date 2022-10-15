@@ -1,4 +1,4 @@
-# hactoberfest
+# hacktoberfest
 
 Hello folks 
 
