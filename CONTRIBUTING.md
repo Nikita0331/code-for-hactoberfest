@@ -14,8 +14,8 @@ Enter your Name & Github Link in the given format. Don't try to change anything 
 | ------|--------- |
 | Nikita Jain | <a href="https://github.com/Nikita0331">https://github.com/Nikita0331</a> |
 | Sneha Jaiswal | <a href="https://github.com/sneha-jais">https://github.com/sneha-jais</a> |
-| Sachendra-coder | <a href="https://github.com/Sachendra-coder">https://github.com/Nikita0331</a> |
-| Ashlesha Sharma | <a href="https://github.com/ash638">https://github.com/Nikita0331</a> |
+| Sachendra-coder | <a href="https://github.com/Sachendra-coder">https://github.com/Sachendra-coder</a> |
+| Ashlesha Sharma | <a href="https://github.com/ash638">https://github.com/ash638</a> |
 Thanks to everyone who helped in building this Repository :)
 
 # Happy Hacking 💻
