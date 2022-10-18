@@ -1,47 +1,25 @@
-#include <iostream>
-using namespace std;
+#include <iostream>  
+using namespace std;  
 
-int ispali(int a){
-        cout<<a;
-        // std::cout << arr[1] << std::endl;
-        // for (int i = 0; i < count; i++)
-        // {
-        //     if ()
-        //     {
-                
-        //     }
-        // }
-        
-    }
+int main()  
+{  
+    int n, digit, reverse = 0, temp;    
     
-int PalinArray(int a[], int n)
-    {
-        int yORn = 0;
-        
-        
-        
-        
-        
-        for(int i= 0;i<n;i++){
-            
-            yORn = ispali(a[i]);
-            if(yORn == 0) break;
-            
-        }
-        
-        
-        
-        
-        
-        
-        
-    	return yORn;
-    }
-int main() {
+    cout << "Enter Input Number = ";    
+    cin >> n;    
     
-int arr[]={121,221,21};
+    temp = n;    
     
-   int x = PalinArray(arr,3);
-    cout<<x;
-    return 0;
-}
+    while(n > 0)    
+    {    
+        digit = n % 10;
+        reverse = reverse*10 + digit;
+        n = n / 10;
+    }   
+
+    if(temp == reverse)    
+        cout << "Palindrome";    
+    else    
+        cout << "Not a Palindrome";   
+    return 0;  
+}  
