@@ -16,6 +16,16 @@ Enter your Name & Github Link in the given format. Don't try to change anything 
 | Sneha Jaiswal | <a href="https://github.com/sneha-jais">https://github.com/sneha-jais</a> |
 | Sachendra-coder | <a href="https://github.com/Sachendra-coder">https://github.com/Sachendra-coder</a> |
 | Ashlesha Sharma | <a href="https://github.com/ash638">https://github.com/ash638</a> |
+| Khushi Vaish | <a href="https://github.com/Khushi-Vaish">https://github.com/Khushi-Vaish</a> |
+| Srishti Gupta | <a href="https://github.com/srishg">https://github.com/srishg</a> |
+| Paras | <a href="https://github.com/Paras-Mayur8055">https://github.com/Paras-Mayur8055</a> |
+| Riya Bansal | <a href="https://github.com/riyabansal1036">https://github.com/riyabansal1036</a> |
+| Nihit | <a href="https://github.com/Nihit25">https://github.com/Nihit25</a> |
+| Bharti Meena | <a href="https://github.com/bhartimeena">https://github.com/bhartimeena</a> |
+| Srijan Shahi | <a href="https://github.com/Srijan235">https://github.com/Srijan235</a> |
+| Vikram | <a href="https://github.com/Vikram739">https://github.com/Vikram739</a> |
+| Gaurav | <a href="https://github.com/gauravjalap">https://github.com/gauravjalap</a> |
+| Anuj | <a href="https://github.com/anuj200-code">https://github.com/anuj200-code</a> |
 Thanks to everyone who helped in building this Repository :)
 
 # Happy Hacking 💻
