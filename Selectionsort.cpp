@@ -1,42 +1,49 @@
 #include<iostream>
 using namespace std;
- 
-int findSmallest (int[],int);
-int main ()
+void sort(int* arr, int size)
 {
-   int myarray[5] = {12,45,8,15,33};
-   int pos,temp;
-   cout<<"\n Input list of elements to be Sorted\n";
-   for(int i=0;i<5;i++)
-   {
-      cout<<myarray[i]<<"\t";
-   }
-   for(int i=0;i<5;i++)
-   {
-      pos = findSmallest (myarray,i);
-      temp = myarray[i];
-      myarray[i]=myarray[pos];
-      myarray[pos] = temp;
-   }
-   cout<<"\n Sorted list of elements is\n";
-   for(int i=0;i<5;i++)
-   {
-      cout<<myarray[i]<<"\t";
-   }
-return 0;
+	int temp = 0;
+	for (int i = 0; i < size; i++)
+	{
+		for (int j = i + 1; j < size; j++)
+		{
+			if (arr[i] > arr[j])
+			{
+				temp = arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
+			}
+		}
+	}
+	cout << "sorted array" << endl;
+	cout << "{";
+	for (int i = 0; i < size; i++)
+	{
+		cout << arr[i] << ",";
+	}
+	cout << "}";
 }
-int findSmallest(int myarray[],int i)
+
+int main()
 {
-   int ele_small,position,j;
-   ele_small = myarray[i];
-   position = i;
-   for(j=i+1;j<5;j++)
-   {
-      if(myarray[j]<ele_small)
-      {
-      ele_small = myarray[j];
-      position=j;
-      }
-   }
-   return position;
+	int size = 0;
+	int *arr;
+	cout << "enter size" << endl;
+	cin >> size;
+	arr = new int[size];
+	cout << "enter elements of array " << endl;
+	for (int i = 0; i < size;i++)
+	{
+		cin >> arr[i];
+	}
+	cout << "entered elements are" << endl;
+	cout << "{";
+	for (int i = 0; i < size; i++)
+	{
+		cout << arr[i]<<",";
+	}
+	cout << "}";
+	cout << endl;
+	sort(arr, size);
+
 }
