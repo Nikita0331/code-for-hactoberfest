@@ -1,5 +1,6 @@
 # include <iostream>
 # include <cstdlib>
+
 using namespace std;
 struct nod
 {
@@ -353,7 +354,7 @@ int main()
          case 8:
             exit(1);
          default:
-            cout<<"Wrong choice"<<endl;
+            cout<<"Wrong choice!!"<<endl;
       }
    }
 }
