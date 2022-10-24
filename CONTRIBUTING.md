@@ -13,6 +13,7 @@ Enter your Name & Github Link in the given format. Don't try to change anything 
 | Name | Github Link |
 | ------|--------- |
 | Nikita Jain | <a href="https://github.com/Nikita0331">https://github.com/Nikita0331</a> |
+| [![Kunal Upadhyay](https://readme-typing-svg.herokuapp.com/?lines=Kunal+Upadhyay...&size=15&font=Press+Start+2P&height=20&vCenter=true)](https://code-with-kunal.blogspot.com) | https://www.github.com/Kunal-Upadhyay |
 | Sneha Jaiswal | <a href="https://github.com/sneha-jais">https://github.com/sneha-jais</a> |
 | Sachendra-coder | <a href="https://github.com/Sachendra-coder">https://github.com/Sachendra-coder</a> |
 | Ashlesha Sharma | <a href="https://github.com/ash638">https://github.com/ash638</a> |
