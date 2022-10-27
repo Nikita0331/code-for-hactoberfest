@@ -11,10 +11,10 @@ unsigned int factorial(unsigned int n)
 
 int main()
 {
-	int num ;
+	int number ;
   cout << "The Number is : " ;
-  cin >> num;
+  cin >> number;
 	cout << "Factorial of "
-		<< num << " is " << factorial(num) << endl;
+		<< number << " is " << factorial(number) << endl;
 	return 0;
 }
