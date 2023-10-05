@@ -29,12 +29,12 @@ public class StringReverseExample {
         if(source == null || source.isEmpty()){
             return source;
         }      
-        String reverse = "";
+        String rev = "";
         for(int i = source.length() -1; i>=0; i--){
-            reverse = reverse + source.charAt(i);
+            rev = rev + source.charAt(i);
         }
      
-        return reverse;
+        return rev;
     }
     }
 
